@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		6A1BC8C02312EA2D009A7F0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A1BC8BF2312EA2D009A7F0D /* AppDelegate.swift */; };
 		6A1BC8C22312EA2D009A7F0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A1BC8C12312EA2D009A7F0D /* ViewController.swift */; };
-		6A1BC8C52312EA2D009A7F0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A1BC8C32312EA2D009A7F0D /* Main.storyboard */; };
 		6A1BC8C82312EA2D009A7F0D /* MeOn_1_1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A1BC8C62312EA2D009A7F0D /* MeOn_1_1.xcdatamodeld */; };
 		6A1BC8CA2312EA31009A7F0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A1BC8C92312EA31009A7F0D /* Assets.xcassets */; };
 		6A1BC8CD2312EA31009A7F0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A1BC8CB2312EA31009A7F0D /* LaunchScreen.storyboard */; };
@@ -19,7 +18,6 @@
 		6A1BC8BC2312EA2D009A7F0D /* MeOn_1.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeOn_1.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A1BC8BF2312EA2D009A7F0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A1BC8C12312EA2D009A7F0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6A1BC8C42312EA2D009A7F0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6A1BC8C72312EA2D009A7F0D /* MeOn_1_1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MeOn_1_1.xcdatamodel; sourceTree = "<group>"; };
 		6A1BC8C92312EA31009A7F0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A1BC8CC2312EA31009A7F0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +56,6 @@
 			children = (
 				6A1BC8BF2312EA2D009A7F0D /* AppDelegate.swift */,
 				6A1BC8C12312EA2D009A7F0D /* ViewController.swift */,
-				6A1BC8C32312EA2D009A7F0D /* Main.storyboard */,
 				6A1BC8C92312EA31009A7F0D /* Assets.xcassets */,
 				6A1BC8CB2312EA31009A7F0D /* LaunchScreen.storyboard */,
 				6A1BC8CE2312EA31009A7F0D /* Info.plist */,
@@ -127,7 +124,6 @@
 			files = (
 				6A1BC8CD2312EA31009A7F0D /* LaunchScreen.storyboard in Resources */,
 				6A1BC8CA2312EA31009A7F0D /* Assets.xcassets in Resources */,
-				6A1BC8C52312EA2D009A7F0D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,14 +143,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6A1BC8C32312EA2D009A7F0D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6A1BC8C42312EA2D009A7F0D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6A1BC8CB2312EA31009A7F0D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,13 +275,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UH4QD548D7;
+				DEVELOPMENT_TEAM = 8LJNVAPE29;
 				INFOPLIST_FILE = MeOn_1.1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Kuanysh.MeOn-1-1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kuanysh.MeOnTasks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,13 +294,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UH4QD548D7;
+				DEVELOPMENT_TEAM = 8LJNVAPE29;
 				INFOPLIST_FILE = MeOn_1.1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Kuanysh.MeOn-1-1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kuanysh.MeOnTasks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
